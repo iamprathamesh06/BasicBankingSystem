@@ -3,7 +3,7 @@ const paymentGate = document.getElementById('PaymentGate');
 let customerList = [];
 
 //Data fetching from server requires some time so 200ms given for wait for the customerList Updation task then we can load our site.
-fetch("http://localhost/customer-data")
+fetch("https://onlinebanking125.herokuapp.com/customer-data")
     .then(response => response.json())
     .then(responseData => {
         customerList = responseData;

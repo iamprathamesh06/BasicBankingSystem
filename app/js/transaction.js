@@ -1,6 +1,6 @@
 const transactionHistory = document.getElementById("transactionHistory");
 let transactionData = [];
-fetch("http://localhost/transaction-data")
+fetch("https://onlinebanking125.herokuapp.com/transaction-data")
   .then((response) => response.json())
   .then((responseData) => {
     transactionData = responseData;
