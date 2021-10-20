@@ -103,7 +103,7 @@ client.connect().then((client) => {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="6; url='http://localhost/customers'" />
+    <meta http-equiv="refresh" content="6; url='https://onlinebanking125.herokuapp.com/customers'" />
     <title>Customer Deleted</title>
     </head>
     
@@ -169,7 +169,7 @@ client.connect().then((client) => {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="refresh" content="3; url='http://localhost/'" />
+        <meta http-equiv="refresh" content="3; url='https://onlinebanking125.herokuapp.com/'" />
         <title>Payment Rejected</title>
         </head>
         
@@ -195,7 +195,7 @@ client.connect().then((client) => {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="refresh" content="3; url='http://localhost/'" />
+        <meta http-equiv="refresh" content="3; url='https://onlinebanking125.herokuapp.com/'" />
         <title>Payment Confirmation</title>
         </head>
         
