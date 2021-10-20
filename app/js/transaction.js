@@ -1,6 +1,6 @@
 const transactionHistory = document.getElementById("transactionHistory");
 let transactionData = [];
-fetch("https://onlinebanking125.herokuapp.com/transaction-data")
+fetch("https://tranquil-crag-69021.herokuapp.com/https://onlinebanking125.herokuapp.com/transaction-data")
   .then((response) => response.json())
   .then((responseData) => {
     transactionData = responseData;
