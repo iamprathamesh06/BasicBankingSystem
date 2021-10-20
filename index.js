@@ -186,7 +186,9 @@ client.connect().then((client) => {
         `;
         res.write(rejectedHtml);
         res.end();
-      } else {
+      } else 
+      {
+
         let ConfirmationHtml = `
         <!DOCTYPE html>
         <html lang="en">
@@ -234,15 +236,15 @@ client.connect().then((client) => {
             },
           }
         );
+        let transaction = {
+          transName : transfererName ,
+          receName : receiverName,
+          amount : parseInt(req.body.Amount)
+        }
+        transactionHistory.insertOne(transaction);
       }
 
 
-      let transaction = {
-        transName : transfererName ,
-        receName : receiverName,
-        amount : parseInt(req.body.Amount)
-      }
-      transactionHistory.insertOne(transaction);
     }, 7000);
     // console.log(findPrevious(req.body.nameList));
   });
