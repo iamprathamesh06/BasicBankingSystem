@@ -1,0 +1,55 @@
+body{
+    overflow-x: hidden;
+    background-image: url(../assets/bg.png);
+    background-position: 1px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link{
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #7ab2f7;
+}
+
+.navbar-light .navbar-nav .selected{
+    color: #76b4ff;
+}
+
+.main h2{
+    /* border: 0.15rem solid black; */
+    border-radius: 1rem;
+    width: 85%;
+    padding: 0.6rem 7rem; 
+    margin: auto;
+}
+
+
+.cards{
+    display: flex;
+    width: 80%;
+    margin: 3rem auto;
+    flex-wrap: wrap;
+    /* border: 2px dotted black; */
+}
+.card{
+    box-shadow: 1px 1px 3px 0px;
+    margin: 1rem auto;
+    width: 17rem;
+}
+
+@media only screen and (max-width: 1150px) {
+    body{
+        background-position: -402px 0px;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+      .main h2{
+          padding: 0.6rem 3rem;
+      }
+  }
