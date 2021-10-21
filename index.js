@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const { MongoClient } = require("mongodb");
 const uri =
-  "mongodb+srv://Pramo:Pramo%40625@onlinebanking.8a31p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://<account ID>:<password>@onlinebanking.8a31p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
